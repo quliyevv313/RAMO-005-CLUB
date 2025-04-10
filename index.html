@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAMO 005 CLUB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      color: #00ffcc;
+    }
+    nav {
+      background-color: #121212;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border: 2px solid #00ffcc;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      margin-top: 40px;
+    }
+    input, textarea, button {
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+      border-radius: 5px;
+      border: none;
+    }
+    button {
+      background-color: #00ffcc;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>RAMO 005 CLUB</header>
+  <nav>
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#fiyatlar">Fiyatlar</a>
+    <a href="#iletisim">İletişim</a>
+    <a href="#rezervasyon">Rezervasyon</a>
+  </nav>
+
+  <section id="hizmetler">
+    <h2>Hizmetlerimiz</h2>
+    <ul>
+      <li>Yüksek performanslı oyun bilgisayarları</li>
+      <li>PlayStation & Konsol alanı</li>
+      <li>Hızlı internet</li>
+      <li>Yazıcı, fotokopi hizmeti</li>
+      <li>Atıştırmalık ve içecek servisi</li>
+    </ul>
+  </section>
+
+  <section id="galeri">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/200" alt="Mekan Fotoğrafı 1">
+      <img src="https://via.placeholder.com/200" alt="Mekan Fotoğrafı 2">
+      <img src="https://via.placeholder.com/200" alt="Mekan Fotoğrafı 3">
+    </div>
+  </section>
+
+  <section id="fiyatlar">
+    <h2>Fiyatlar</h2>
+    <ul>
+      <li>PC  1Saat: 3 GEL</li>
+      <li>PS4 1Saat: 4 GEL</li>
+      <li>PS5 1saat: 5 GEL</li>
+      <li>Logitech G920: Saatlik 7 GEL</li>
+    </ul>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <p>Adres: Cennet Mah. Kafe Cad. No:15</p>
+    <p><a href="https://maps.app.goo.gl/LVy91QddHFYhQ5sNA" target="_blank">Haritada Gör</a></p>
+    <p>Telefon: <a href="tel:+995555757531" style="color:#00ffcc;">+995 555 57 28 97</a></p>
+    <p>WhatsApp: <a href="https://wa.me/555572897" style="color:#00ffcc;">Mesaj Gönder</a></p>
+  </section>
+
+  <section id="rezervasyon">
+    <h2>Rezervasyon</h2>
+    <form>
+      <input type="text" placeholder="Ad Soyad" required>
+      <input type="datetime-local" required>
+      <input type="number" placeholder="Kişi Sayısı" required>
+      <textarea placeholder="Ekstra Notlar"></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 RAMO 005 CLUB - Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
